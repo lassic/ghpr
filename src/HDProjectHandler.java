@@ -74,7 +74,12 @@ public class HDProjectHandler extends AbstractProjectComponent {
     }
 
     private void fetchPullRequestInfo() {
-
+        // find VCS root (github first)
+//        com.intellij.dvcs.DvcsUtil.getVcsRoot(psiManager.getProject(), psiManager.getProject().getProjectFile());
+        // find PRs on this project
+        // ensure on branch of PR
+        // get PR comments
+        // match file+line and place comment marker
     }
 
     @Override
